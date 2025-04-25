@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 export default function About() {
   return (
+    <>
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-screen-xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-start relative">
 
@@ -54,7 +55,7 @@ export default function About() {
             </Link>
             <ul className="flex gap-4 text-gray-700">
               <li>
-                <a href="#" aria-label="LinkedIn">
+                <a href="www.linkedin.com/in/syed-huzaifa-nazim-a861b727a" aria-label="LinkedIn">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2
                     c0-2.325,1.42-3.592,3.5-3.592c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435
@@ -92,5 +93,14 @@ export default function About() {
 
       </div>
     </section>
+    <style js>{`
+      #about {
+        position: relative;
+      }
+      #about .absolute {
+        z-index: -1;
+      }
+    `}</style>
+    </>
   );
 }
