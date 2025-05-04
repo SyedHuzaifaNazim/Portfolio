@@ -52,7 +52,7 @@ export default function ContactPage() {
             </p>
             <a
               href="mailto:#0"
-              className="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 transition"
+              className="inline-flex items-center gap-2 bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
